@@ -53,6 +53,7 @@ def compute_pct(subset, category, year):
 
 # ── 3. APP LAYOUT ─────────────────────────────────────────────────────────────
 app = Dash(__name__)
+server = app.server
 app.title = "Bulgaria High-Growth Monitor"
 
 # Shared dropdown style
